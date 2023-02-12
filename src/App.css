@@ -7,7 +7,7 @@
 }
 
 .splash-screen {
-  background-image: url('./Images/cpu.jpg');
+  background-image: url("./Images/cpu.jpg");
   background-size: cover;
   height: 400px;
 }
