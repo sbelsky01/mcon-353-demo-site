@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./home.css";
 import {
   Button,
   Card,
@@ -16,21 +16,21 @@ import {
   Paper,
 } from "@mui/material";
 import { ExpandMore } from "@mui/icons-material";
-import CartoonPic from "./Images/cartoon-pic.jpg";
-import PrintableKosherRecipes from "./Images/printable-kosher-recipes.jpg";
-import ChocolateCake from "./Images/chocolate-cake.JPG";
-import RoyalIcing from "./Images/royal-icing.jpeg";
-import PillowPic from "./Images/C2C-pillow.jpeg";
-import ScrubbiesPic from "./Images/scrubbies.jpeg";
-import BorderPic from "./Images/candy-cane-border.jpeg";
+import CartoonPic from "../../images/cartoon-pic.jpg";
+import PrintableKosherRecipes from "../../images/printable-kosher-recipes.jpg";
+import ChocolateCake from "../../images/chocolate-cake.JPG";
+import RoyalIcing from "../../images/royal-icing.jpeg";
+import PillowPic from "../../images/C2C-pillow.jpeg";
+import ScrubbiesPic from "../../images/scrubbies.jpeg";
+import BorderPic from "../../images/candy-cane-border.jpeg";
 
 const SplashScreen = () => {
-  return <div class="splash-screen"></div>;
+  return <div className="splash-screen"></div>;
 };
 
 const AboutMe = () => {
   return (
-    <Paper className="about-me-container" elevation="14">
+    <Paper className="about-me-container" elevation={14}>
       <Grid container className="about-me" spacing={6}>
         <Grid item xs={12} sm={6} md={5} lg={3}>
           <Card variant="outlined">
@@ -385,11 +385,11 @@ const Border = () => {
   );
 };
 
-export default function App() {
+export default function Home() {
   return (
     <div className="App">
       <SplashScreen />
-      <div class="page-content">
+      <div className="page-content">
         <AboutMe />
         <BakingSection />
         <CrochetSection />

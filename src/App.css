@@ -5,24 +5,3 @@
 .page-content {
   padding: 60px;
 }
-
-.splash-screen {
-  background-image: url("./Images/cpu.jpg");
-  background-size: cover;
-  height: 400px;
-}
-
-.about-me-container {
-  margin: 40px 40px 15px 40px;
-  padding: 40px;
-}
-
-.about-me {
-  display: flex;
-  align-items: center;
-}
-
-.section-heading {
-  padding-top: 80px;
-  padding-bottom: 25px;
-}
