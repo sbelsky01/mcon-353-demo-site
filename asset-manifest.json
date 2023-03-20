@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mcon-353-demo-site/static/css/main.4e3a3672.css",
+    "main.js": "/mcon-353-demo-site/static/js/main.30bf2beb.js",
+    "static/js/787.5d944677.chunk.js": "/mcon-353-demo-site/static/js/787.5d944677.chunk.js",
+    "static/media/chocolate-cake.JPG": "/mcon-353-demo-site/static/media/chocolate-cake.5bdcc971e5d71e83352d.JPG",
+    "static/media/cpu.jpg": "/mcon-353-demo-site/static/media/cpu.2baef3d6401797c8a26c.jpg",
+    "static/media/printable-kosher-recipes.jpg": "/mcon-353-demo-site/static/media/printable-kosher-recipes.99e27ac8323c470b9c55.jpg",
+    "static/media/C2C-pillow.jpeg": "/mcon-353-demo-site/static/media/C2C-pillow.e31e2c316bd27966b9b1.jpeg",
+    "static/media/royal-icing.jpeg": "/mcon-353-demo-site/static/media/royal-icing.8f8a2c82ad25347bed92.jpeg",
+    "static/media/candy-cane-border.jpeg": "/mcon-353-demo-site/static/media/candy-cane-border.ec156e1be945d7fe0f9f.jpeg",
+    "static/media/scrubbies.jpeg": "/mcon-353-demo-site/static/media/scrubbies.ddc64dbb476d7d716012.jpeg",
+    "static/media/cartoon-pic.jpg": "/mcon-353-demo-site/static/media/cartoon-pic.49c43b00ed404c0d2907.jpg",
+    "index.html": "/mcon-353-demo-site/index.html",
+    "main.4e3a3672.css.map": "/mcon-353-demo-site/static/css/main.4e3a3672.css.map",
+    "main.30bf2beb.js.map": "/mcon-353-demo-site/static/js/main.30bf2beb.js.map",
+    "787.5d944677.chunk.js.map": "/mcon-353-demo-site/static/js/787.5d944677.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e3a3672.css",
+    "static/js/main.30bf2beb.js"
+  ]
+}
