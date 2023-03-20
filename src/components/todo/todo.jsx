@@ -25,13 +25,14 @@ export const Todo = () => {
   };
 
   const addTodo = () => {
-    if (input !== " ") {
+    if (input.trim() !== "") {
       todoDispatch({
         type: TodoActions.ADD,
         todo: { title: input, isComplete: false },
       });
-      setInput("");
     }
+
+    setInput("");
   };
 
   const toggleChecked = (todo) => {
@@ -48,6 +49,12 @@ export const Todo = () => {
     });
   };
 
+  const checkEnter = (event) => {
+    if (event.keyCode == 13) {
+      addTodo();
+    }
+  };
+
   return (
     <div className="App">
       <div className="todo-body page-content">
@@ -59,6 +66,7 @@ export const Todo = () => {
           label="Enter task"
           variant="standard"
           onInput={onInput}
+          onKeyDown={checkEnter}
           value={input}
         />
         <Fab color="primary" size="small" sx={{ backgroundColor: "#0f4a8d" }}>
