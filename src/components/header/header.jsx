@@ -15,6 +15,7 @@ import FitbitIcon from "@mui/icons-material/Fitbit";
 const pages = [
   { name: "Home", path: "/" },
   { name: "Todo", path: "/todo" },
+  { name: "Chat", path: "/chat" },
 ];
 
 export function Header() {

@@ -1,0 +1,26 @@
+.chat-body {
+  margin: 40px auto 0px auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 1000px;
+}
+
+.messages {
+  height: 350px;
+  overflow: auto;
+  background-color: #fff;
+}
+
+.message {
+  padding: 6px 12px;
+  margin: 20px 40px;
+  border-radius: 7px;
+  background-color: #c8cad2;
+  width: max-content;
+  max-width: fit-content;
+}
+
+.my-messages {
+  margin-left: auto;
+  background-color: #6ebc6b;
+}
