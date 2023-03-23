@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mcon-353-demo-site/static/css/main.4e3a3672.css",
-    "main.js": "/mcon-353-demo-site/static/js/main.30bf2beb.js",
+    "main.js": "/mcon-353-demo-site/static/js/main.4401fdb8.js",
     "static/js/787.5d944677.chunk.js": "/mcon-353-demo-site/static/js/787.5d944677.chunk.js",
     "static/media/chocolate-cake.JPG": "/mcon-353-demo-site/static/media/chocolate-cake.5bdcc971e5d71e83352d.JPG",
     "static/media/cpu.jpg": "/mcon-353-demo-site/static/media/cpu.2baef3d6401797c8a26c.jpg",
@@ -13,11 +13,11 @@
     "static/media/cartoon-pic.jpg": "/mcon-353-demo-site/static/media/cartoon-pic.49c43b00ed404c0d2907.jpg",
     "index.html": "/mcon-353-demo-site/index.html",
     "main.4e3a3672.css.map": "/mcon-353-demo-site/static/css/main.4e3a3672.css.map",
-    "main.30bf2beb.js.map": "/mcon-353-demo-site/static/js/main.30bf2beb.js.map",
+    "main.4401fdb8.js.map": "/mcon-353-demo-site/static/js/main.4401fdb8.js.map",
     "787.5d944677.chunk.js.map": "/mcon-353-demo-site/static/js/787.5d944677.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e3a3672.css",
-    "static/js/main.30bf2beb.js"
+    "static/js/main.4401fdb8.js"
   ]
 }
