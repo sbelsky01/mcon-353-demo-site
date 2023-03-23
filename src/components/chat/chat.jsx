@@ -130,6 +130,13 @@ export const Chat = () => {
     setNewChat("");
   };
 
+  const checkEnter = (event) => {
+    if (event.keyCode == 13) {
+      event.target.blur();
+      postMessage();
+    }
+  };
+
   return (
     <div className="App">
       <div className="chat-body page-content">
@@ -230,7 +237,8 @@ export const Chat = () => {
                     : "message"
                 }
               >
-                {message.username}: {message.text}
+                {message.username === username ? "" : message.username + ": "}
+                {message.text}
               </ListItem>
             ))}
           </List>
@@ -257,6 +265,7 @@ export const Chat = () => {
                   : ""
               }
               color="success"
+              onKeyDown={checkEnter}
             />
             <Button
               color="success"

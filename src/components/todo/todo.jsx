@@ -51,6 +51,7 @@ export const Todo = () => {
 
   const checkEnter = (event) => {
     if (event.keyCode == 13) {
+      event.target.blur();
       addTodo();
     }
   };
