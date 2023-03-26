@@ -236,6 +236,7 @@ export const Chat = () => {
                     ? "message my-messages"
                     : "message"
                 }
+                sx={{ width: "max-content", maxWidth: "fit-content" }}
               >
                 {message.username === username ? "" : message.username + ": "}
                 {message.text}

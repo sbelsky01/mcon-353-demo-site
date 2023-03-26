@@ -16,8 +16,8 @@
   margin: 20px 40px;
   border-radius: 7px;
   background-color: #c8cad2;
-  width: max-content;
-  max-width: fit-content;
+  /* width: max-content;
+  max-width: fit-content; */
 }
 
 .my-messages {
